@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="shortcut icon" href="images/AU_logo.png" type="image/x-icon" />
+    <title>Courses | CCE</title>
+  </head>
+  <body>
+    <header>
+      <div class="first">
+        <img src="images/AU_logo.png" alt="" height="70px" class="logo" />
+        <div class="name">
+          <h2>Center of Computer Education & Training</h2>
+          <h4>
+            Institue of Professional Studies,<br />University of Allahabad
+          </h4>
+        </div>
+      </div>
+      <nav>
+        <a href="index.html" class="nav-items"
+          >Home
+          <p class="hover-nav"></p
+        ></a>
+        <a href="courses.html" class="nav-items active" onclick="return false;"
+          >Courses
+          <p class="hover-nav"></p
+        ></a>
+        <a href="library.html" class="nav-items"
+          >Library
+          <p class="hover-nav"></p
+        ></a>
+        <a href="lab.html" class="nav-items"
+          >Lab
+          <p class="hover-nav"></p
+        ></a>
+        <a href="contact.html" class="nav-items"
+          >Contact
+          <p class="hover-nav"></p
+        ></a>
+      </nav>
+    </header>
+    <section class="ugcourse">
+      <div class="ug">
+        <button class="back" onclick="back()"><i class="fa fa-chevron-left"></i></button>
+        <h2>Undergraduate Courses</h2>
+      </div>
+      <div class="contain-flex">
+        <div class="bca">
+          <div class="heading">
+            <h3>Bachelor of Computer Applications (BCA)</h3>
+            
+            Bachelors in Computer Application (BCA) is a three-year
+            undergraduate degree course for students who wish to delve into the
+            world of Computer languages. The BCA course is one of the most
+            popular options to get started with a career in Information
+            Technology.
+          </div>
+          <table>
+            <tr>
+              <th>Eligibility</th>
+              <td>12th passed from a recognized board / university.</td>
+            </tr>
+            <tr>
+              <th>Duration</th>
+              <td>3 years</td>
+            </tr>
+            <tr>
+              <th>Available seats</th>
+              <td>80 *</td>
+            </tr>
+            <tr>
+              <th>Syllabus</th>
+              <td>
+                <a href="/files/bca_feb_2018.pdf"
+                  >Click to view detailed syllabus.</a
+                >
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="dca" id="dca">
+          <div class="heading">
+            <h3>Diploma in Computer Applications</h3>
+            
+            Diploma in Computer Applications is a one-year diploma program that
+            aims to make students study computer applications in depth in a
+            shorter period of time. The DCA program imparts scientific,
+            practical and technical knowledge to its learners about various
+            computer tools that are used in day to day life.
+          </div>
+          <table>
+            <tr>
+              <th>Eligibility</th>
+              <td>10+2 from a recognized board / university.</td>
+            </tr>
+            <tr>
+              <th>Duration</th>
+              <td>1 year</td>
+            </tr>
+            <tr>
+              <th>Available seats</th>
+              <td>25-30</td>
+            </tr>
+            <tr>
+              <th>Syllabus</th>
+              <td>
+                Semester 1: <br />
+                <br />
+
+                <i class="fa fa-small-circle"></i> IT Tools and Business
+                Systems/ Internet Technology and Web Design. <br /><br />
+                Semester 2: <br /><br />
+
+                Programming and Problem Solving Through 'C'/ Introduction to
+                Multimedia, Application of .Net Technology, <br />
+                Introduction to ICT Resources
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <button onclick="prev()" class="prev">
+        <i class="fa fa-chevron-left"></i>
+      </button>
+      <button onclick="next()" class="next">
+        <i class="fa fa-chevron-right"></i>
+      </button>
+    </section>
+    <section class="cover-container">
+      <button class="course-sel" onclick="showUg()">Undergraduate Courses</button>
+      <button class="course-sel" onclick="showPg()">Post-Graduate Courses</button>
+    </section>
+    <section class="pgcourse">
+      <div class="pg"><button class="back" onclick="back()"><i class="fa fa-chevron-left"></i></button>
+        <h2>Post-Graduate Courses</h2>
+      </div>
+      <div class="contain-flex pgcon">
+        <div class="mca">
+          <div class="heading">
+            <h3>Master of Computer Applications (MCA)</h3>
+            
+            Master of Computer Applications (MCA) is a two year professional
+            post-graduate programme for candidates wanting to delve deeper into
+            the world of computer application development with the help of
+            learning modern programming language.
+          </div>
+          <table>
+            <tr>
+              <th>Eligibility</th>
+              <td>
+                Graduation in BCA or equivalent course from a recognized board /
+                university.
+              </td>
+            </tr>
+            <tr>
+              <th>Duration</th>
+              <td>2 year</td>
+            </tr>
+            <tr>
+              <th>Available seats</th>
+              <td>50 *</td>
+            </tr>
+            <tr>
+              <th>Syllabus</th>
+              <td>
+                <a href="/files/mca_feb_2018.pdf"
+                  >Click here for detailed syllabus.</a
+                >
+              </td>
+            </tr>
+          </table>
+        </div>
+        <div class="pgdca">
+          <div class="heading">
+            <h3>Post-Graduate diploma in Computer Applications (PGDCA)</h3>
+            
+            Postgraduate Diploma in Computer Applications is a 1-year postgraduate
+            diploma course.
+          </div>
+          <table>
+            <tr>
+              <th>Eligibility</th>
+              <td>10+2+3 from a recognized board / university.</td>
+            </tr>
+            <tr>
+              <th>Duration</th>
+              <td>1 year</td>
+            </tr>
+            <tr>
+              <th>Available seats</th>
+              <td>75 *</td>
+            </tr>
+            <tr>
+              <th>Syllabus</th>
+              <td>
+                <a href="/files/pgdca.pdf">Click here for detailed syllabus.</a>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <button onclick="prev1()" class="prev">
+        <i class="fa fa-chevron-left"></i>
+      </button>
+      <button onclick="next2()" class="next">
+        <i class="fa fa-chevron-right"></i>
+      </button>
+      
+    </section>
+    <footer>
+      <form method="GET">
+        <h2>Subscribe to Newsletter</h2>
+        <hr />
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter name"
+          autocomplete="off"
+        />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter email"
+          autocomplete="off"
+        />
+
+        <input
+          type="submit"
+          value="Subscribe"
+          style="background-color: tomato; color: white; cursor: pointer"
+        />
+      </form>
+      <ul class="quick-links">
+        <h2>Quick Links</h2>
+        <hr />
+        <li>
+          <a href="https://ips.allduniv.ac.in/result/cceresult.php"> Result</a>
+        </li>
+        <br />
+        <li style="cursor: not-allowed">Admissions 2021</li>
+        <small><em>(link will be available soon)</em></small>
+        <br />
+        <br />
+        <li>Training & Placement Cell</li>
+        <br />
+        <li>Attendance</li>
+        <br />
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+        <br />
+      </ul>
+     
+    </footer>
+    <div class="copyright">
+      &copy University of Allahabad || Made by &nbsp;<a
+        href="https://github.com/ayush-kashyap/"
+        style="color: white"
+      >
+        Ayush Kashyap</a
+      >
+    </div>
+    
+    <script
+      src="https://kit.fontawesome.com/5f1318dd38.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      const div1 = document.querySelector(".contain-flex");
+      const div2 = document.querySelector(".pgcon");
+      const ugc = document.querySelector(".ugcourse");
+      const pgc = document.querySelector(".pgcourse");
+      const csl = document.querySelector(".cover-container");
+      function prev() {
+        div1.scrollLeft -= 1280;
+      }
+      function next() {
+        div1.scrollLeft += 1280;
+      }
+      function prev1() {
+        div2.scrollLeft -= 1280;
+      }
+      function next2() {
+        div2.scrollLeft += 1280;
+      }
+      function showUg(){
+        ugc.style.display="block";
+        csl.style.display="none";
+      }
+      function showPg(){
+        pgc.style.display="block";
+        csl.style.display="none";
+      }
+      function back(){
+        csl.style.display="flex";
+        ugc.style.display="none";
+        pgc.style.display="none";
+      }
+    </script>
+  </body>
+</html>

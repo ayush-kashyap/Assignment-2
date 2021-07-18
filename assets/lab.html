@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/AU_logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Lab | CCE</title>
+  </head>
+  <body>
+    <header>
+      <div class="first">
+        <img src="images/AU_logo.png" alt="" height="70px" class="logo" />
+        <div class="name">
+          <h2>Center of Computer Education & Training</h2>
+          <h4>
+            Institue of Professional Studies,<br />University of Allahabad
+          </h4>
+        </div>
+      </div>
+      <nav>
+        <a href="index.html" class="nav-items"
+          >Home
+          <p class="hover-nav"></p
+        ></a>
+        <a href="courses.html" class="nav-items"
+          >Courses
+          <p class="hover-nav"></p
+        ></a>
+        <a href="library.html" class="nav-items"
+          >Library
+          <p class="hover-nav"></p
+        ></a>
+        <a href="lab.html" class="nav-items active" onclick="return false;"
+          >Lab
+          <p class="hover-nav"></p
+        ></a>
+        <a href="contact.html" class="nav-items"
+          >Contact
+          <p class="hover-nav"></p
+        ></a>
+      </nav>
+    </header>
+    <section class="lab">
+      <div class="lab-content">
+          <h2>
+              Lab
+          </h2>
+          Center of Computer Education have computer Labs very well equipped with systems that can support all the modules needed for better learning.
+        </div>
+      <div class="imgs">
+        <div class="img1"><img src="images/gal4.jpg" alt="" /></div>
+        <div class="img2"><img src="images/gal6.jpg" alt="" /></div>
+      </div>
+    </section>
+    <footer>
+      <form method="GET">
+        <h2>Subscribe to Newsletter</h2>
+        <hr />
+        <input
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter name"
+          autocomplete="off"
+        />
+        <input
+          type="email"
+          name="email"
+          id="email"
+          placeholder="Enter email"
+          autocomplete="off"
+        />
+
+        <input
+          type="submit"
+          value="Subscribe"
+          style="background-color: tomato; color: white; cursor: pointer"
+        />
+      </form>
+      <ul class="quick-links">
+        <h2>Quick Links</h2>
+        <hr />
+        <li>
+          <a href="https://ips.allduniv.ac.in/result/cceresult.php"> Result</a>
+        </li>
+        <br />
+        <li style="cursor: not-allowed">Admissions 2021</li>
+        <small><em>(link will be available soon)</em></small>
+        <br />
+        <br />
+        <li>Training & Placement Cell</li>
+        <br />
+        <li>Attendance</li>
+        <br />
+        <li>
+          <a href="contact.html">Contact</a>
+        </li>
+        <br />
+      </ul>
+      
+    </footer>
+    <div class="copyright">
+      &copy University of Allahabad || Made by &nbsp;<a
+        href="https://github.com/ayush-kashyap/"
+        style="color: white"
+      >
+        Ayush Kashyap</a
+      >
+    </div>
+    
+    <script
+      src="https://kit.fontawesome.com/5f1318dd38.js"
+      crossorigin="anonymous"
+    ></script>
+    <script>
+        var img1 = document.querySelector(".imgs");
+        setInterval(() => {
+            setTimeout(() => {
+                img1.scrollLeft += 800;
+            }, 3000);
+            img1.scrollLeft -= 800;
+        }, 6000);
+    </script>
+  </body>
+</html>
