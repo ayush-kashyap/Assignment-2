@@ -485,7 +485,7 @@ td, th{
     color: var(--white);
 }
 .error{
-    position: absolute;
+    position: fixed;
     top: 0;
     display: none;
     flex-direction: column;
